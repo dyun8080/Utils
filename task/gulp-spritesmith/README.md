@@ -2,12 +2,17 @@
 
 > 把多张png格式的icon自动合成到同一张png大图上，减少浏览器多次请求服务器
 
-## 使用
+## features
+
+* 优化图片
+* 压缩css
+
+## 基本命令
 
 ```bash
 ## 下载依赖
 $ npm install
-## use
+## 使用
 $ npm start
 ```
 
@@ -27,7 +32,9 @@ $ npm start
 代码执行后文件结构
 
 ```bash
-└── output/
-    ├── sprite.css   // css文件，根据icon尺寸自动生成了对应的 .icon-{{name}}
-    └── sprite.png   // 合成的雪碧图
+└── dist/
+  ├── css
+  │   └── sprite.css // css文件，根据icon尺寸自动生成了对应的 .icon-{{name}}
+  └── image
+      └── sprite.png // 合成的雪碧图
 ```

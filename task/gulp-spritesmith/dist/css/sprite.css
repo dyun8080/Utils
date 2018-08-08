@@ -1,1 +1,36 @@
-.icon-deposit-reviewed{background-image:url(sprite.png);background-position:0 0;width:74px;height:30px}.icon-dialog-info,.icon-dialog-warning{background-image:url(sprite.png);background-position:0 -30px;width:17px;height:17px}.icon-dialog-warning{background-position:-17px -30px}
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-deposit-reviewed {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 74px;
+  height: 30px;
+}
+.icon-dialog-info {
+  background-image: url(sprite.png);
+  background-position: 0px -30px;
+  width: 17px;
+  height: 17px;
+}
+.icon-dialog-warning {
+  background-image: url(sprite.png);
+  background-position: -17px -30px;
+  width: 17px;
+  height: 17px;
+}
