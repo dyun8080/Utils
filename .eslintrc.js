@@ -11,7 +11,7 @@ module.exports = {
   extends: "airbnb",
   env: {
     // 指定浏览器环境，允许window对象
-    browser: true,
+    // browser: true,
     // jest环境，基于node环境的拓展：node API + jest API
     jest: true
   },
