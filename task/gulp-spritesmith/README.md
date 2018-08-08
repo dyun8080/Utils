@@ -1,11 +1,12 @@
-# gulp 自动合成雪碧图图片
+# gulp 自动合成雪碧图
 
 > 把多张png格式的icon自动合成到同一张png大图上，减少浏览器多次请求服务器
 
 ## features
 
-* 优化图片
-* 压缩css
+* 合成雪碧图
+* 优化图片体积
+* 压缩css文件
 
 ## 基本命令
 
@@ -34,3 +35,9 @@ $ npm start
   └── image
       └── sprite.png // 合成的雪碧图
 ```
+
+## 插件列表
+
+* 合成雪碧图 [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
+* 优化图片大小 [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
+* 压缩css文件 [gulp-csso](https://github.com/ben-eb/gulp-csso)
