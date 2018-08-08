@@ -7,5 +7,5 @@ gulp.task('sprite', () => {
       imgName: 'sprite.png',
       cssName: 'sprite.css',
     }));
-  return spriteData.pipe(gulp.dest('path/to/output/'));
+  return spriteData.pipe(gulp.dest('dist/'));
 });
