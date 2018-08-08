@@ -1,0 +1,12 @@
+{
+  "name": "gulp-spritesmith",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gulp sprite"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.9.0"
+  }
+}
