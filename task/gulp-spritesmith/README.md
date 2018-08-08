@@ -16,8 +16,6 @@ $ npm install
 $ npm start
 ```
 
-### 文件初始状态
-
 现有目录结构如下：
 
 ```bash
@@ -26,8 +24,6 @@ $ npm start
     ├── dialog-info.png
     └── dialog-warning.png
 ```
-
-### 代码执行结果
 
 代码执行后文件结构
 
