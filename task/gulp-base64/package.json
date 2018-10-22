@@ -1,0 +1,13 @@
+{
+  "name": "gulp-base64",
+  "description": "图片转化为 base64",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gulp main"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-base64": "^0.1.3"
+  }
+}

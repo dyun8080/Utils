@@ -38,6 +38,6 @@ $ npm start
 
 ## 插件列表
 
-* 合成雪碧图 [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
-* 优化图片大小 [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
-* 压缩css文件 [gulp-csso](https://github.com/ben-eb/gulp-csso)
+* [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
+* [gulp-csso](https://github.com/ben-eb/gulp-csso)
